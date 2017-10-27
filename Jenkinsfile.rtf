@@ -10,15 +10,11 @@
 
 \f0\fs25\fsmilli12600 \cf2 \cb3 \expnd0\expndtw0\kerning0
 pipeline \{\
-    agent any\
+    agent \{ docker \cf4 \cb5 '\cf6 maven:3.5.2\cf4 \'92\cf2 \cb3  \}\
     stages \{\
-        stage(\cf4 \cb5 '\cf6 Build\cf4 '\cf2 \cb3 ) \{\
+        stage(\cf4 \cb5 '\cf6 build\cf4 '\cf2 \cb3 ) \{\
             steps \{\
-                sh \cf4 \cb5 '\cf6 echo "Hello World"\cf4 '\cf2 \cb3 \
-                sh \cf4 \cb5 '''\cf6 \
-                    echo "Multiline shell steps works too"\
-                    ls -lah\
-                \cf4 '''\cf2 \cb3 \
+                sh \cf4 \cb5 '\cf6 mvn --version\cf4 '\cf2 \cb3 \
             \}\
         \}\
     \}\
