@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_0ZM18MegEee3H-NOuNQ6oQ" elementId="de.impala67.plugin1.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_1OzBMMegEee3H-NOuNQ6oQ" elementId="de.impala67.plugin1.trimmedwindow.taskmanager" label="Dude, where's the pie?" x="0" y="0" width="800" height="1024"/>
+  <handlers xmi:id="_JMxUAMh8Eee3H-NOuNQ6oQ" elementId="de.impala67.plugin1.handler.update" contributionURI="bundleclass://de.impala67.plugin1/de.impala67.plugin1.UpdateHandler" command="_LlSDgMh8Eee3H-NOuNQ6oQ"/>
+  <menuContributions xmi:id="_FCxYwMh8Eee3H-NOuNQ6oQ" elementId="de.impala67.plugin1.menucontribution.update" accessibilityPhrase="Update"/>
+  <commands xmi:id="_LlSDgMh8Eee3H-NOuNQ6oQ" elementId="de.impala67.plugin1.command.update" commandName="Update"/>
+  <addons xmi:id="_0ZM18cegEee3H-NOuNQ6oQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_0ZM18segEee3H-NOuNQ6oQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_0ZM188egEee3H-NOuNQ6oQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_0ZM19MegEee3H-NOuNQ6oQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_0ZM19cegEee3H-NOuNQ6oQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_0ZM19segEee3H-NOuNQ6oQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_0ZM198egEee3H-NOuNQ6oQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>

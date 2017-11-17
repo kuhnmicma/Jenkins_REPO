@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="de.impala67.plugin3"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/de.impala67.plugin3/css/default.css">
+         </property>
+      </product>
+   </extension>
+   <extension
+         id="Product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="Impala67">
+         <property
+               name="appName"
+               value="Impala67">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

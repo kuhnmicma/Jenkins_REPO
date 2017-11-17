@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/de.impala67.feature1_1.0.0.qualifier.jar" id="de.impala67.feature1" version="1.0.0.qualifier">
+      <category name="Category1"/>
+   </feature>
+   <category-def name="Category1" label="Winchester Bros."/>
+</site>

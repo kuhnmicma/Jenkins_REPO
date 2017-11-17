@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: de.impala67.test1
+Bundle-Name: Test1
+Bundle-Version: 1.0.0.201711170932
+Require-Bundle: de.impala67.plugin1;bundle-version="1.0.0",org.junit;b
+ undle-version="4.12.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
